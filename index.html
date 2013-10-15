@@ -1,111 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'/>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'/>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
     <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-    <title>Jenkins-css-themes by jasonm23</title>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Jenkins-css-themes by mwierzba</title>
   </head>
 
   <body>
-    <div id="container">
+    <header>
       <div class="inner">
+        <h1>Jenkins-css-themes</h1>
+        <h2>A collection of jenkins css themes</h2>
+        <a href="https://github.com/mwierzba/jenkins-css-themes" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
 
-        <header>
-          <p>
-            <a href="https://github.com/jasonm23/jenkins-css-themes">
-              <span style="font-size:10pt">&#x27BD; Visit the repository here, to fork, raise issues etc.</span>
-            </a>
-          </p>
-          <h1>Jenkins-css-themes</h1>
-          <h2>A collection of jenkins css themes</h2>
-          <p>
-            <ol>
-              <li>
-                Install the <a
-                href="https://wiki.jenkins-ci.org/display/JENKINS/Simple+Theme+Plugin">Simple
-                Theme Plugin</a> on your Jenkins server.
-              </li>
-              <li>
-                Then use any of the css and javascript links
-                shown below.
-              </li>
-            </ol>
-          </p>
-          <p>For safety, (ie. these may change,
-          or even disappear.) you may prefer to fork or
-          host them yourself, which you're more than welcome to do.
-          </p>
-          <p style="font-size:8pt;">
-            You may use this project under the terms of the MIT Licence
-          </p>
-        </header>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="jenkins-css-themes" class="anchor" href="#jenkins-css-themes"><span class="octicon octicon-link"></span></a>Jenkins-css-themes</h1>
 
-        <hr/>
-
-        <section id="main_content">
-          <h2>1. Original</h2>
-          <p>
-            CSS: Style font, search box, remove Jenkins header logo, make header bar black.<br/>
-            <a href="http://jasonm23.github.io/jenkins-css-themes/stylesheets/original.css"><code>http://jasonm23.github.io/jenkins-css-themes/stylesheets/original.css</code></a>
-          </p>
-          <p>
-            JavaScript: add <span style='font-family: Menlo, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;'>type="search"</span> to search box<br/>
-            <a href="http://jasonm23.github.io/jenkins-css-themes/javascripts/original.js"><code>http://jasonm23.github.io/jenkins-css-themes/javascripts/original.js</code></a>
-          </p>
-          <p>
-            <img src="http://jasonm23.github.io/jenkins-css-themes/images/example.png" alt="" style="box-shadow: 0px 12px 17px rgba(0,0,0,0.3); border:5px solid white; border-radius: 7px;" />
-          </p>
-          <h2>2. Cleaner</h2>
-          <p>Similar to original, but cleaner.</p>
-          <p>
-            CSS: Style font, search box, remove Jenkins header logo, remove underlines from links, make header bar black.<br/>
-            <a href="http://jasonm23.github.com/jenkins-css-themes/stylesheets/cleaner.css"><code>http://jasonm23.github.io/jenkins-css-themes/stylesheets/cleaner.css</code></a>
-          </p>
-          <p>
-            JavaScript: add <span style='font-family: Menlo, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;'>type="search"</span> to search box. Remove Jenkins' image from the background<br/>
-            <a href="http://jasonm23.github.io/jenkins-css-themes/javascripts/cleaner.js"><code>http://jasonm23.github.io/jenkins-css-themes/javascripts/cleaner.js</code></a>
-          </p>
-          <p>
-            <img src="http://jasonm23.github.io/jenkins-css-themes/images/cleaner.png" alt="" style="box-shadow: 0px 12px 17px rgba(0,0,0,0.3); border:5px solid white; border-radius: 7px;" />
-          </p>
-          <h2>3. Menlo Park - latest update: 2013/9/07</h2>
-          <p><strong>!WARNING! Experimental</strong> - Cleaner than Clean.</p>
-          <p>
-            CSS: Style font, search box, remove Jenkins header logo, remove underlines from links, make header bar black. textareas and console output is white on black, larger type, Menlo, Monaco, Consolas, or Inconsolata for monospace heaven<br/>
-            <a href="http://jasonm23.github.io/jenkins-css-themes/stylesheets/menlopark.css"><code>http://jasonm23.github.io/jenkins-css-themes/stylesheets/menlopark.css</code></a>
-          </p>
-          <p>
-            JavaScript: add <span style='font-family: Menlo, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;'>type="search"</span> to search box. Remove Jenkins' image from the background<br/>
-            <a href="http://jasonm23.github.io/jenkins-css-themes/javascripts/menlopark.js"><code>http://jasonm23.github.io/jenkins-css-themes/javascripts/menlopark.js</code></a>
-          </p>
-          <p><strong>
-            Please Note: Menlo Park, is in an experimental alpha phase and subject to change without notice. If you find it in a state you like / use, either fork the project and use it from your fork, or post an issue requesting a version, I'll give it a name and post it here as a specific theme for you and anyone else to use.
-          </strong>
-          </p>
-          <p>
-          <h1>No screenshot at the moment... a work in progress.</h1>
-          </p>
-
-
-          <h2>More to come...</h2>
-
-
+<p>A collection of jenkins css themes (just one at the moment, more soon.)</p>
         </section>
 
-        <footer>
-          <a href="https://github.com/jasonm23/jenkins-css-themes">Jenkins-css-themes</a> is maintained by <a href="https://github.com/jasonm23">jasonm23</a><br>
-          This page was generated by <a href="http://pages.github.io">GitHub Pages</a>.
-          <br/>This theme was derived from the Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
+        <aside id="sidebar">
+          <a href="https://github.com/mwierzba/jenkins-css-themes/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/mwierzba/jenkins-css-themes/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
 
+          <p class="repo-owner"><a href="https://github.com/mwierzba/jenkins-css-themes"></a> is maintained by <a href="https://github.com/mwierzba">mwierzba</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
       </div>
     </div>
+
+  
   </body>
 </html>
