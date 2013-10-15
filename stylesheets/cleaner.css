@@ -9,7 +9,7 @@ a, a:visited, a:active, a:hover, a:link {
 #top-panel {
    background-image: url('http://www.idium.no/filestore/dev2012/GFX/logo.png') !important;
    background-repeat: no-repeat !important;
-   background-position-y: 2px;
+   background-position: 2px !important;
    background: black;
 }
 
