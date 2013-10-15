@@ -8,12 +8,12 @@ a, a:visited, a:active, a:hover, a:link {
 
 #top-panel {
    background-image: url('http://www.idium.no/filestore/dev2012/GFX/logo.png') !important;
-   background-repeat: no !important;
+   background-repeat: no-repeat !important;
    background: black;
 }
 
 #top-panel img:first-child {
-   /*display:none;*/
+   display:none;
 }
 
 #search-box {
